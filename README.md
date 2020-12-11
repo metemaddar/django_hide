@@ -5,7 +5,7 @@ Django package to hide from wappalyzer
 Install it by:
 ``` pip install django-hide ```
 
-Add `django_hide` to the installed app.
+Add `django_hide` to the installed apps.
 
 Add `django_hide.middleware.CSRFHIDEMiddleware` to middlewares.
 
