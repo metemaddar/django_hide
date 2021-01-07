@@ -1,5 +1,6 @@
 # django_hide
-Django package to hide from wappalyzer
+Django package to hide from wappalizer. 
+Wappalizer detects django by csrf-token tag in post forms. This package, encrypts the name of csrf-token tag.
 
 # usage
 Install it by:
