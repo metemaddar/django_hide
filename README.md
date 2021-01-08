@@ -8,7 +8,7 @@ Python versions 3.6 or later are supported with a limit to what Django itself su
 See also [What Python version can I use with Django?](https://docs.djangoproject.com/en/stable/faq/install/#what-python-version-can-i-use-with-django)
 
 ## Installation
-You can install from [PyPI](https://pypi.python.org/pypi/django-two-factor-auth) using `pip` to install `django-hide` and its dependencies:
+You can install from [PyPI](https://pypi.python.org/pypi/django-hide) using `pip` to install `django-hide` and its dependencies:
 
 ```shell
 $ pip install django-hide
@@ -52,3 +52,7 @@ Change `{% csrf_token %}` to `{% h_csrf_token %}` in your forms in every templat
             type="submit">{% "Submit" %}</button>
 </form>
 ```
+
+## Note
+
+Clear Wappalyzer cookies to make sure your django app is hidden.
