@@ -1,5 +1,10 @@
 from django.core import signing
+
+
 class CSRFHIDEMiddleware(object):
+    """
+    Middleware that hides the csrfmiddlewaretoken in the request.
+    """
     def __init__(self, get_response):
         self.get_response = get_response
         # One-time configuration and initialization.
