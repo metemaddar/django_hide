@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="django-hide", # Replace with your own username
-    version="0.0.2",
+    version="0.0.3",
     author="Mohammad Etemaddar",
     author_email="mohammad.etemaddar@gmail.com",
     description="Django Hide, hides django from wappalizer by encrypting csrf_token.",
