@@ -1,4 +1,6 @@
 # Django Hide
+![Django CI](https://github.com/metemaddar/django_hide/actions/workflows/django.yml/badge.svg)
+
 Django package to hide any Django application's programming languages and frameworks from apps such as Wappalyzer.
 Wappalizer detects django by csrf-token tag in post forms. This package, encrypts the name of csrf-token tag.
 
