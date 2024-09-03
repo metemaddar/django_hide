@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="django-hide",
-    version="0.0.4",
+    version="0.0.4.1",
     author="Mohammad Etemaddar",
     author_email="mohammad.etemaddar@gmail.com",
     description="A Django package to obscure Django applications from detection tools like Wappalyzer by encrypting the CSRF token.",
