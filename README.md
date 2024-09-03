@@ -3,7 +3,7 @@
 ![Django CI](https://github.com/metemaddar/django_hide/actions/workflows/django.yml/badge.svg)
 
 <p align="center">
-  <img src="docs/logo.svg" alt="Logo" style="background-color: white; padding: 5px;"/>
+  <img src="https://raw.githubusercontent.com/metemaddar/django_hide/master/docs/logo.svg" alt="Logo"/>
 </p>
 
 **Django Hide** is a Django package designed to obscure your application's programming languages and frameworks from detection tools like Wappalyzer. By encrypting the CSRF token tag, this package helps prevent Wappalyzer and similar tools from identifying your application as a Django project.
