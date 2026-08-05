@@ -5,5 +5,5 @@ iniconfig==2.0.0
 packaging==24.1
 pluggy==1.5.0
 pytest==8.3.2
-soupsieve==2.6
+soupsieve==2.8.4
 sqlparse==0.5.1
