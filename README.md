@@ -1,5 +1,5 @@
 # Django Hide
-
+[![Django Packages](https://img.shields.io/badge/Django%20Packages-django--hide-0c4b33.svg)](https://djangopackages.org/packages/p/django-hide/)
 ![Django CI](https://github.com/metemaddar/django_hide/actions/workflows/django.yml/badge.svg)
 
 <p align="center">
